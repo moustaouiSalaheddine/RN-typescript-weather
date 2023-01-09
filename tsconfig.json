@@ -1,10 +1,28 @@
-// prettier-ignore
 {
-  "extends": "@tsconfig/react-native/tsconfig.json",     /* Recommended React Native TSConfig base */
   "compilerOptions": {
-    /* Visit https://aka.ms/tsconfig.json to read more about this file */
-
-    /* Completeness */
-    "skipLibCheck": true                                 /* Skip type checking all .d.ts files. */
-  }
+    "baseUrl": ".",
+    "paths": {
+      "react-native-screens": ["./src"],
+      // "react-native-screens/native-stack": ["./src/native-stack/index.tsx"],
+      // "react-native-screens/createNativeStackNavigator": ["./src/createNativeStackNavigator.tsx"],
+      // "react-native-screens/reanimated": ["src/reanimated/index.tsx"]
+    },
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "jsx": "react",
+    "lib": ["esnext"],
+    "module": "esnext",
+    "moduleResolution": "node",
+    "noImplicitUseStrict": false,
+    "noStrictGenericChecks": false,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "target": "esnext"
+  },
+  "include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.tsx"]
 }

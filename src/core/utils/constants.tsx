@@ -1,13 +1,8 @@
 const COLORS = {
-    blue: "#1376AA",
-    yellow: "#E8A745",
-    yellow_bg: "#E4C167",
-    orange: "#fe9700",
-    red: "#e16077",
-    green: "#5fc3a5",
-    black: "#2C2A2D",
-    black2: "#4F4F4F",
+
 }
+// const WEATHER_APP_ID = "b1b15e88fa797225412429c1c50c122a1r";
+const WEATHER_APP_ID = "895284fb2d2c50a520ea537456963d9c";
 export {
-    COLORS,
+    COLORS, WEATHER_APP_ID
 }
